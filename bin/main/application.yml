@@ -1,1 +1,9 @@
-
+spring:
+  application:
+    name: user-fe-ms
+eureka:
+  client:
+    service-url:
+      default-zone: ${EUREKA_HOME}
+server:
+  port: 8080
